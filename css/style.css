@@ -1,9 +1,70 @@
-html,body {
-    height: 100%;
-    margin: 0px;
+body {
+    margin:0;
+    padding:0;
+    background-color: black;
 }
 
-body {
+.dropdown {
+    text-align: end;
+    margin: 20px;
+}
+
+.dropdown-menu {
+    margin-right: 20px;
+}
+
+input {
+    border: 0px;
+    margin: 5px;
+}
+
+/* .search-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+    background-color: white;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+    background-color: aqua;
+    padding: 0 6px;
+
+   
+}
+
+.search-box:hover > .search-btn {
+    width: 240px;
+   
+}
+
+.search-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 4 0px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background-color: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px; 
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+} */
+/* body {
 text-align: center;
 }
 
@@ -44,4 +105,4 @@ button {
     margin: 5px;
     padding: 5px 12px;
     border-radius: 12px;
-}
+} */
